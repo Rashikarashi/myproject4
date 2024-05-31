@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M45.686%2c225.484C79.456%2c226.831%2c117.707%2c221.8%2c134.294%2c192.353C150.702%2c163.224%2c133.685%2c128.973%2c116.049%2c100.571C99.68%2c74.211%2c76.646%2c51.732%2c45.686%2c49.658C10.921%2c47.329%2c-25.962%2c59.597%2c-43.147%2c89.907C-60.158%2c119.911%2c-50.37%2c156.89%2c-31.467%2c185.74C-14.473%2c211.675%2c14.704%2c224.248%2c45.686%2c225.484' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M515.8969088212141 246.44762548684565L350.5842883736079 334.1439200593165 487.77738064259296 423.2381559130421z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M636.175838967285 185.21529273948403L562.9422453959719 121.55430108531782 504.0675547003791 263.2351872693706z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M236.62438963670346 499.7292882564228L173.8895883705385 395.32104567980724 132.21614706008785 562.4640895225878z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M964.1825557959862 546.276729984249L983.2357530344804 391.10089111342404 828.0599141636554 372.04769387492985 809.0067169251613 527.2235327457548z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M83.4220390265335 314.8014462704132L126.65760481862549 488.91656444319693 241.35311530307212 381.9612706041902z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 80px;
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+    text-shadow: 5px 5px 10px rgba(0,0,0,.5);
+}
+textarea{
+    margin: 40px 0;
+    width: 400px;
+    height: 200px;
+    background: rgb(184, 176, 176);
+    box-shadow: 12px 12px 15px rgba(0,0,0,.5);
+    font-size: 20px;
+    padding: 10px;
+    color: black;
+    border: none;
+    outline: none;
+}
+button{
+    width: 100px;
+    height: 100px;
+    background: rgb(0, 0, 25);
+    font-size: 45px;
+    border: none;
+    outline: none;
+    color: white;
+    box-shadow: 12px 12px 15px rgba(0,0,0,.5);
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+@media screen and (max-width:576px) {
+    
+    .container{
+        height: 250vh;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='576' height='1060' preserveAspectRatio='none' viewBox='0 0 576 1060'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1130%26quot%3b)' fill='none'%3e%3crect width='576' height='1060' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1131%26quot%3b)'%3e%3c/rect%3e%3cpath d='M155.113348791695 974.7055560710809L186.56320368194545 865.0268778701206 6.3202589353799965 872.691434635225z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M271.77222828082887 249.42117473199986L406.24437637436637 151.72144030980982 308.54464195217633 17.249292216272323 174.07249385863884 114.94902663846236z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M13.083171359432047 728.132703885098L170.35809071551975 700.4008922138717 142.62627904429348 543.125972857784-14.648640311794214 570.8577845290102z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M237.300793080874 162.80939396345073L401.9167313434366 213.13753694742076 452.2448743274066 48.52159868485816 287.628936064844-1.806544299111863z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M365.52975203387183 272.2720017535846L356.47260796571226 186.09903217471447 231.74172563148682 242.7712330663889z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M6.475890596381987 717.4853362225689L95.58209204910477 618.7123389410924-17.723491395915275 592.5536838467141z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1130'%3e%3crect width='576' height='1060' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='-21.01%25' y1='11.42%25' x2='121.01%25' y2='88.58%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1131'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(36%2c 43%2c 52%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    }
+    h1{
+        font-size: 100px;
+        margin: 0;
+        margin-bottom: 50px;
+        color: white;
+        font-family: sans-serif;
+        text-shadow: 5px 5px 10px rgba(0,0,0,.5);
+    }
+    textarea{
+        margin: 40px 0;
+        width: 750px;
+        height: 490px;
+        box-shadow: 12px 12px 15px rgba(0,0,0,.5);
+        font-size: 30px;
+        padding: 10px;
+        border: none;
+        outline: none;
+    }
+    button{
+        width: 200px;
+        height: 200px;
+        background: rgb(2, 2, 34);
+        font-size: 80px;
+        border: none;
+        outline: none;
+        color: white;
+        box-shadow: 12px 12px 15px rgba(0,0,0,.5);
+        border-radius: 50%;
+        padding: 5px;
+        cursor: pointer;
+    }
+}

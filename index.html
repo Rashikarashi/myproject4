@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text to speech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Text To Speech</h1>
+    <textarea name="" placeholder="Type your text here..." id="txt"></textarea>
+    <button onclick="speak()"><ion-icon name="mic-outline"></ion-icon></ion-icon></button>
+  </div>
+  <script>
+    var speech = new SpeechSynthesisUtterance();
+
+    function speak(){
+        speech.text = txt.value;
+        speech.volume = 1;
+        speech.rate = 1;
+        speech.pitch = 1;
+        window.speechSynthesis.speak(speech);
+    }
+  </script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
